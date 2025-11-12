@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Passa a trovarci</h2>
             <p className="mt-2 text-gray-600">Siamo nel centro della Valconca, facilmente raggiungibili da tutta la zona.</p>
             <ul className="mt-6 space-y-3 text-gray-700">
-              <li className="flex items-center gap-2"><MapPin size={18}/> Morciano di Romagna (RN)</li>
+              <li className="flex items-center gap-2"><MapPin size={18}/> Via Pascoli, 15 · 47833 Morciano di Romagna (RN)</li>
               <li className="flex items-center gap-2"><Phone size={18}/> +39 000 000 000</li>
               <li className="flex items-center gap-2"><Mail size={18}/> info@geekvalley.example</li>
             </ul>
@@ -17,11 +17,11 @@ export default function Contact() {
           </div>
           <div className="rounded-2xl overflow-hidden ring-1 ring-black/5 bg-white shadow-sm">
             <iframe
-              title="Mappa Morciano di Romagna"
+              title="Mappa – Via Pascoli 15, Morciano di Romagna"
               className="w-full h-80"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.9383142481576!2d12.651!3d43.916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMorciano%20di%20Romagna!5e0!3m2!1sit!2sit!4v1700000000000"></iframe>
+              src="https://www.google.com/maps?q=Via%20Pascoli%2C%2015%2C%2047833%20Morciano%20di%20Romagna%20RN&output=embed"></iframe>
           </div>
         </div>
       </div>
